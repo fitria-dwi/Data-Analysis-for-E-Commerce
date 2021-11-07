@@ -1,4 +1,4 @@
-**Author: Fitria Dwi Wulandari (wulan391@sci.ui.ac.id) - October, 2021.**
+Author: Fitria Dwi Wulandari (wulan391@sci.ui.ac.id) - October, 2021.
 
 # Data Analysis for E-Commerce
 
