@@ -1,7 +1,7 @@
 
 # Data Analysis for E-Commerce
 
-#### Monthly Transactions in 2020
+#### Monthly Transactions
 * 2019
 
 | month      | number_of_transaction   |
