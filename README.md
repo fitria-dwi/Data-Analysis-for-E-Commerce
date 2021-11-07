@@ -29,42 +29,50 @@
 | 5046                    |
 
 * Jumlah yang sudah dibayar tetapi tidak dibayar
+
 |transaksi_dibayar_tidak_dikirim  |
 |:-------------:                  |
 | 4744                            |
 
 * Jumlah transaksi yang tidak dikirim, baik yang sudah dibayar maupun belum
+
 |transaksi_tidak_dikirim  |
 |:-------------:          |
 | 9790                    |
 
 * Jumlah transaksi yang dikirim pada hari yang sama dengan tanggal dibayar
+
 |jumlah_transaksi  |
 |:-------------:   |
 | 9634             |
 
 #### Pengguna yang Bertransaksi
 * Total seluruh pengguna
+
 |jumlah_seluruh_pengguna  |
 |:-------------:          |
 | 17936                   |
 
 * Total pengguna yang pernah bertransaksi sebagai pembeli
+
 |jumlah_buyer     |
 |:-------------:  |
 | 17877           |
 
 * Total pengguna yang pernah bertransaksi sebagai penjual
+
 |jumlah_seller     |
 |:-------------:   |
 | 69               |
 
 * Total pengguna yang pernah bertransaksi sebagai pembeli dan pernah sebagai penjual
+
 |buyer_dan_seller  |
 |:-------------:   |
 | 69               |
 
 * Total pengguna yang tidak pernah bertransaksi sebagai pembeli maupun penjual
+
 |pengguna_tidak_pernah_transaksi  |
 |:-------------:                  |
 | 59                              |
