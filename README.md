@@ -1,7 +1,7 @@
 
 # Data Analysis for E-Commerce
 
-#### Monthly Transactions
+#### 1. Monthly Transactions
 * 2019
 
 | month      | number_of_transaction   |
@@ -30,7 +30,7 @@
 | 04         | 10026              |
 
 
-#### Transactions Status
+#### 2. Transactions Status
 * The number of unpaid transactions
 
 |unpaid_transaction  |
@@ -56,7 +56,7 @@
 | 9634                 |
 
 
-#### Transaction Users
+#### 3. Transaction Users
 * Total all users
 
 |  total_all_users  |
@@ -88,7 +88,7 @@
 | 59                          |
 
 
-#### Top Buyer All Time
+#### 4. Top Buyer All Time
 | buyer_id        | user_name                       | total_transaction  |
 |:-------------:  | :-------------:                 | :-------------:  |
 | 60              | Jaka Hastuti                    | 68956000         |
@@ -98,7 +98,7 @@
 | 11140           | R. A. Yulia Padmasari, S.I.Kom  | 52743200         |
 
 
-#### Frequent Buyer
+#### 5. Frequent Buyer
 | buyer_id        | nama_user                      | number_of_transaction  |
 |:-------------:  | :-------------:                 | :-------------:  |
 | 22              | Gandi Rahmawati                 | 16               |
@@ -108,7 +108,7 @@
 | 20              | Dr. Adika Kusmawati, S.Pt       | 14               |   
 
 
-#### Email Domain from Seller
+#### 6. Email Domain from Seller
 | email_domain    | number_of_seller          | 
 |:-------------:  | :-------------:           | 
 | gmail.com       | 32                        |
@@ -125,7 +125,7 @@
 | pd.ac.id        | 2                         |
 
 
-#### Top 5 Product in December 2019
+#### 7. Top 5 Product in December 2019
 | total_quantity  | desc_product                                            | 
 |:-------------:  | :-------------:                                         | 
 | 2387            | QUEEN CEFA BRACELET LEATHER                             |
@@ -135,7 +135,7 @@
 | 1155            | Close Up PAsta Gigi White Attraction Natural Glow 100G  |
 
 
-#### 10 Biggest Transactions User 12476
+#### 8. 10 Biggest Transactions User 12476
 | seller_id | buyer_id | transaction_value | transaction_date   |
 |:---------:|:--------:|:---------------:|:-------------------:|
 |        61 |    12476 |        12014000 | 2019-12-23 00:00:00 |
@@ -150,7 +150,7 @@
 |         3 |    12476 |          399000 | 2019-09-26 00:00:00 |
 
 
-#### User with Biggest Transaction Average in January 2020
+#### 9. User with Biggest Transaction Average in January 2020
 | buyer_id | number_of_transaction | avg_transaction_value |
 |:--------:|:----------------:|:-------------------:|
 |    11140 |                2 |       11719500.0000 |
@@ -165,7 +165,7 @@
 |      841 |                2 |        5052500.0000 |
 
 
-#### The Biggest Transactions in December 2019 (min 20000000)
+#### 10. The Biggest Transactions in December 2019 (min 20000000)
 | buyer_name                    | transaction_value | transaction_date   |
 |:-----------------------------:|:---------------:|:-------------------:|
 | Diah Mahendra                 |        21142000 | 2019-12-24 00:00:00 |
@@ -182,7 +182,7 @@
 | Tgk. Lidya Lazuardi, S.Pt     |        20447000 | 2019-12-16 00:00:00 |
 
 
-#### Best Selling Product Category in 2020
+#### 11. Best Selling Product Category in 2020
 | category          | total_quantitiy   | total_price      |
 |:-------------:    | :-------------:   | :-------------:  |
 | Kebersihan Diri   | 944018            | 1333153000       |
@@ -192,7 +192,7 @@
 | Minuman Ringan    | 212103            | 63017000         |  
 
 
-#### Discovering High Value Buyer (Buyers Having Transacted more than 5 Times and Minimum Transaction is 2000000)
+#### 12. Discovering High Value Buyer (Buyers Having Transacted more than 5 Times and Minimum Transaction is 2000000)
 
 | buyer_name          | number_of_transaction  | total_transaction_value    | min_transaction_value   |
 |:-------------:      | :-------------:   | :-------------:           | :-------------:       |
@@ -204,14 +204,14 @@
 | Fitria Narpati      | 6                 | 22820000                  | 2337000               |
 
 
-#### Discovering Dropshipper
+#### 13. Discovering Dropshipper
 | buyer_name          | number_of_transaction  | distinct_postalcode     |total_transaction_value     | avg_transaction_value  |
 |:-------------:      | :-------------:   | :-------------:      |:-------------:           | :-------------:       |
 | Anastasia Gunarto   | 10                | 10                   |7899000                   | 789900.0000           |
 | R. M. Setya Wakita  | 10                | 10                   |30595000                  | 3059500.0000          |
 
 
-#### Discovering Offline Reseller
+#### 14. Discovering Offline Reseller
 | buyer_name               | number_of_transaction | total_transaction_value | avg_transaction_value | avg_quantity_per_transaction |
 |:---------------------------:|:----------------:|:---------------------:|:-------------------:|:--------------------------:|
 | Gandi Rahmawati             |               12 |              36822000 |        3068500.0000 |                    65.1667 |
@@ -241,7 +241,7 @@
 | Oni Halim                   |                8 |               2472000 |         309000.0000 |                    26.0000 |
 
 
-#### Discovering Buyers who are Seller (more than 7x)
+#### 15. Discovering Buyers who are Seller (more than 7x)
 | user_name                   | number_of_purchase_transactions  | number_of_sales_transactions   |
 |:-------------:              | :-------------:         | :-------------:         |
 | Bahuwirya Haryanto          |  8                      | 1032                    |
@@ -256,7 +256,7 @@
 | R. M. Prayogo Damanik, S.Pt |  8                      | 1044                    |  
 
 
-#### Time of Paid Transaction
+#### 16. Time of Paid Transaction
 | year_month  | number_of_transactions | avg_length_of_payment | min_length_of_payment | max_length_of_payment |
 |:-----------:|:----------------:|:----------------:|:----------------:|:----------------:|
 |      201901 |              117 |           7.0467 |                1 |               14 |
