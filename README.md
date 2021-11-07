@@ -1,85 +1,95 @@
-# Data-Analysis-for-E-Commerce
+**Author: Fitria Dwi Wulandari (wulan391@sci.ui.ac.id) - October, 2021.**
 
-#### Jumlah Transaksi per Bulan
-| Bulan           | jumlah_transaksi   |
+# Data Analysis for E-Commerce
+
+#### Monthly Transactions in 2020
+* 2019
+
+| month      | number_of_transaction   |
+|:---------: | :-------------:    |
+| 01         | 117                |
+| 02         | 354                |
+| 03         | 668                |
+| 04         | 984                |
+| 05         | 1462               |
+| 06         | 1913               |
+| 07         | 2667               |
+| 08         | 3274               |
+| 09         | 4327               |
+| 10         | 5577               |
+| 11         | 7162               |
+| 12         | 10131              |
+
+* 2020
+| month           | number_of_transaction   |
 |:-------------:  | :-------------:    |
-| 2019-01         | 117                |
-| 2019-02         | 354                |
-| 2019-03         | 668                |
-| 2019-04         | 984                |
-| 2019-05         | 1462               |
-| 2019-06         | 1913               |
-| 2019-07         | 2667               |
-| 2019-08         | 3274               |
-| 2019-09         | 4327               |
-| 2019-10         | 5577               |
-| 2019-11         | 7162               |
-| 2019-12         | 10131              |
-| 2020-01         | 5062               |
-| 2020-02         | 5872               |
-| 2020-03         | 7323               |
-| 2020-04         | 7955               |
-| 2020-04         | 10026              |
+| 01         | 5062               |
+| 02         | 5872               |
+| 03         | 7323               |
+| 04         | 7955               |
+| 04         | 10026              |
 
-#### Status Transaksi
-* Jumlah transaksi yang tidak dibayar
 
-|transaksi_tidak_dibayar  |
-|:-------------:          |
-| 5046                    |
+#### Transactions Status
+* The number of unpaid transactions
 
-* Jumlah yang sudah dibayar tetapi tidak dibayar
+|unpaid_transaction  |
+|:-------------:      |
+| 5046                |
 
-|transaksi_dibayar_tidak_dikirim  |
-|:-------------:                  |
-| 4744                            |
+* The number of transactions that have been paid but not sent
 
-* Jumlah transaksi yang tidak dikirim, baik yang sudah dibayar maupun belum
+|paid_not_sent_transaction  |
+|:-------------:             |
+| 4744                       |
 
-|transaksi_tidak_dikirim  |
+* The number of transactions that were not sent, whether paid or not
+
+|   transaction_not_sent  |
 |:-------------:          |
 | 9790                    |
 
-* Jumlah transaksi yang dikirim pada hari yang sama dengan tanggal dibayar
+* The number of transactions sent on the same day as the payment date
 
-|jumlah_transaksi  |
-|:-------------:   |
-| 9634             |
+| same_day_transaction |
+|:-------------:       |
+| 9634                 |
 
-#### Pengguna yang Bertransaksi
-* Total seluruh pengguna
 
-|jumlah_seluruh_pengguna  |
-|:-------------:          |
-| 17936                   |
+#### Transaction Users
+* Total all users
 
-* Total pengguna yang pernah bertransaksi sebagai pembeli
+|  total_all_users  |
+|:-------------:    |
+| 17936             |
 
-|jumlah_buyer     |
+* The number of users who have transacted as buyers
+
+|number_of_buyers |
 |:-------------:  |
 | 17877           |
 
-* Total pengguna yang pernah bertransaksi sebagai penjual
+* The number of users who have transacted as a seller
 
-|jumlah_seller     |
+|number_of_seller  |
 |:-------------:   |
 | 69               |
 
-* Total pengguna yang pernah bertransaksi sebagai pembeli dan pernah sebagai penjual
+* The number of users who have transacted as buyers and sellers
 
-|buyer_dan_seller  |
+|buyer_and_seller  |
 |:-------------:   |
 | 69               |
 
-* Total pengguna yang tidak pernah bertransaksi sebagai pembeli maupun penjual
+* The number of users who have never transacted as buyers or sellers
 
-|pengguna_tidak_pernah_transaksi  |
-|:-------------:                  |
-| 59                              |
+|user_never_made_transaction  |
+|:-------------:              |
+| 59                          |
 
 
 #### Top Buyer All Time
-| buyer_id        | nama_user                       | total_transaksi  |
+| buyer_id        | user_name                       | total_transaction  |
 |:-------------:  | :-------------:                 | :-------------:  |
 | 60              | Jaka Hastuti                    | 68956000         |
 | 122             | R. M. Banara Hastuti, S.Pd      | 62564000         |
@@ -89,7 +99,7 @@
 
 
 #### Frequent Buyer
-| buyer_id        | nama_user                       | total_transaksi  |
+| buyer_id        | nama_user                      | number_of_transaction  |
 |:-------------:  | :-------------:                 | :-------------:  |
 | 22              | Gandi Rahmawati                 | 16               |
 | 122             | R. M. Banara Hastuti, SP.Pd     | 16               |
@@ -98,11 +108,8 @@
 | 20              | Dr. Adika Kusmawati, S.Pt       | 14               |   
 
 
-#### Big Frequent Buyer 2020
-
-
-#### Domain Email dari Penjual
-| domain_email    | jumlah_pengguna_seller    | 
+#### Email Domain from Seller
+| email_domain    | number_of_seller          | 
 |:-------------:  | :-------------:           | 
 | gmail.com       | 32                        |
 | hotmail.com     | 28                        |
@@ -118,7 +125,7 @@
 | pd.ac.id        | 2                         |
 
 
-#### Top 5 Product Desember 2019
+#### Top 5 Product in December 2019
 | total_quantity  | desc_product                                            | 
 |:-------------:  | :-------------:                                         | 
 | 2387            | QUEEN CEFA BRACELET LEATHER                             |
@@ -128,8 +135,8 @@
 | 1155            | Close Up PAsta Gigi White Attraction Natural Glow 100G  |
 
 
-#### 10 Transaksi terbesar user 12476
-| seller_id | buyer_id | nilai_transaksi | tanggal_transaksi   |
+#### 10 Biggest Transactions User 12476
+| seller_id | buyer_id | transaction_value | transaction_date   |
 |:---------:|:--------:|:---------------:|:-------------------:|
 |        61 |    12476 |        12014000 | 2019-12-23 00:00:00 |
 |        53 |    12476 |         9436000 | 2019-12-05 00:00:00 |
@@ -143,11 +150,8 @@
 |         3 |    12476 |          399000 | 2019-09-26 00:00:00 |
 
 
-#### Transaksi per bulan
-
-
-#### Pengguna dengan Rata — Rata Transaksi Terbesar di Januari 2020
-| buyer_id | jumlah_transaksi | avg_nilai_transaksi |
+#### User with Biggest Transaction Average in January 2020
+| buyer_id | number_of_transaction | avg_transaction_value |
 |:--------:|:----------------:|:-------------------:|
 |    11140 |                2 |       11719500.0000 |
 |     7905 |                2 |       10440000.0000 |
@@ -161,8 +165,8 @@
 |      841 |                2 |        5052500.0000 |
 
 
-#### Transaksi Besar di Desember 2019
-| nama_pembeli                  | nilai_transaksi | tanggal_transaksi   |
+#### The Biggest Transactions in December 2019 (min 20000000)
+| buyer_name                    | transaction_value | transaction_date   |
 |:-----------------------------:|:---------------:|:-------------------:|
 | Diah Mahendra                 |        21142000 | 2019-12-24 00:00:00 |
 | Dian Winarsih                 |        22966000 | 2019-12-21 00:00:00 |
@@ -178,7 +182,7 @@
 | Tgk. Lidya Lazuardi, S.Pt     |        20447000 | 2019-12-16 00:00:00 |
 
 
-#### Kategori Produk Terlaris di 2020
+#### Best Selling Product Category in 2020
 | category          | total_quantitiy   | total_price      |
 |:-------------:    | :-------------:   | :-------------:  |
 | Kebersihan Diri   | 944018            | 1333153000       |
@@ -188,8 +192,9 @@
 | Minuman Ringan    | 212103            | 63017000         |  
 
 
-#### Mencari Pembeli High Value
-| nama_pembeli        | jumlah_transaksi  | total_nilai_transaksi     | min_nilai_transaksi   |
+#### Discovering High Value Buyer (Buyers Having Transacted more than 5 Times and Minimum Transaction is 2000000)
+
+| buyer_name          | number_of_transaction  | total_transaction_value    | min_transaction_value   |
 |:-------------:      | :-------------:   | :-------------:           | :-------------:       |
 | Dr. Sidiq Thamrin   | 6                 | 41976000                  | 2088000               |
 | Dina Lailasari      | 8                 | 38195000                  | 2736000               |
@@ -199,15 +204,15 @@
 | Fitria Narpati      | 6                 | 22820000                  | 2337000               |
 
 
-#### Mencari Dropshipper
-| nama_pembeli        | jumlah_transaksi  | distinct_kodepos     |total_nilai_transaksi     | avg_nilai_transaksi   |
+#### Discovering Dropshipper
+| buyer_name          | number_of_transaction  | distinct_postalcode     |total_transaction_value     | avg_transaction_value  |
 |:-------------:      | :-------------:   | :-------------:      |:-------------:           | :-------------:       |
 | Anastasia Gunarto   | 10                | 10                   |7899000                   | 789900.0000           |
 | R. M. Setya Wakita  | 10                | 10                   |30595000                  | 3059500.0000          |
 
 
-#### Mencari Reseller Offline
-| nama_pembeli                | jumlah_transaksi | total_nilai_transaksi | avg_nilai_transaksi | avg_quantity_per_transaksi |
+#### Discovering Offline Reseller
+| buyer_name               | number_of_transaction | total_transaction_value | avg_transaction_value | avg_quantity_per_transaction |
 |:---------------------------:|:----------------:|:---------------------:|:-------------------:|:--------------------------:|
 | Gandi Rahmawati             |               12 |              36822000 |        3068500.0000 |                    65.1667 |
 | Tgk. Cengkal Hutasoit, M.Ak |                8 |              33943000 |        4242875.0000 |                    91.7500 |
@@ -235,8 +240,9 @@
 | dr. Galuh Hastuti, S.IP     |                8 |               4352000 |         544000.0000 |                    26.7500 |
 | Oni Halim                   |                8 |               2472000 |         309000.0000 |                    26.0000 |
 
-#### Pembeli Sekaligus Penjual
-| nama_pengguna               | jumlah_transaksi_beli   | jumlah_transaksi_jual   |
+
+#### Discovering Buyers who are Seller (more than 7x)
+| user_name                   | number_of_purchase_transactions  | number_of_sales_transactions   |
 |:-------------:              | :-------------:         | :-------------:         |
 | Bahuwirya Haryanto          |  8                      | 1032                    |
 | Bahuwirya Haryanto          |  8                      | 1032                    |
@@ -250,8 +256,8 @@
 | R. M. Prayogo Damanik, S.Pt |  8                      | 1044                    |  
 
 
-#### Lama Transaksi Dibayar
-| tahun_bulan | jumlah_transaksi | avg_lama_dibayar | min_lama_dibayar | max_lama_dibayar |
+#### Time of Paid Transaction
+| year_month  | number_of_transactions | avg_length_of_payment | min_length_of_payment | max_length_of_payment |
 |:-----------:|:----------------:|:----------------:|:----------------:|:----------------:|
 |      201901 |              117 |           7.0467 |                1 |               14 |
 |      201902 |              354 |           7.5399 |                1 |               14 |
