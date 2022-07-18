@@ -1,6 +1,17 @@
 
 # Data Analysis for E-Commerce
 
+**Objective**: Create a reports from order and user data in an e-commerce company.
+
+**Actions**:
+1. Identify top and frequent buyers.
+2. Identify high value buyers.
+3. Identify the best selling product categories of 2020
+4. Identify dropshippers, offline retailers, and sellers who are also buyers.
+5. and many more.
+
+**Tools**: Microsoft Excel, PostgreSQL
+
 #### 1. Monthly Transactions
 * 2019
 
